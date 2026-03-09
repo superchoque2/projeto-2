@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Freckle+Face&family=TASA+Orbiter:wght@400..800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: "Freckle Face", system-ui;
+}
+
+
+body {
+    min-height: 100vh;
+    background-image: url(../img/teste.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+header {
+    background-image: url(../img/madeira.jpg);
+    height: 80px;
+    padding: 12px 4%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    width: 180px;
+    font-size: 13px;
+    color: white;
+    text-shadow: -2px -2px 0 black,
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black;
+}
+
+ul {
+    display: none;
+
+}
+
+
+li {
+    text-align: center;
+
+}
+
+li a {
+    color: white;
+    text-shadow: -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+
+}
+
+li a:hover {
+
+    color: yellow;
+    text-shadow: -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+
+
+.ativo {
+    background-image: url(../img/madeira.jpg);
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    padding: 1rem;
+
+
+}
+
+h2 {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    text-shadow: -2px -2px 0 black,
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    text-shadow: -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+    max-width: 280px;
+    margin: 20px auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/*///////////////////////////////////// parte de botão//////////////////////////////////////////////// */
+
+.pedido-btn {
+    display: flex;
+    border: solid black 2px;
+    text-decoration: none;
+}
+
+a.pedido-btn {
+    text-decoration: none;
+}
+
+.menu-btn {
+    font-size: 2rem;
+
+}
+
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 600;
+    background: transparent;
+    color: white;
+}
+
+.carrossel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 20px;
+    margin-top: 60px;
+
+}
+
+.produto-img {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin-left: 20;
+}
+
+.produto {
+    display: none
+}
+
+.ativoimg {
+    display: block;
+}
+
+.pedido-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/madeira.jpg);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-shadow: -2px -2px 0 black,
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+
+.pedido-btn:hover {
+    padding: 14px;
+    font-size: 20px;
+
+}
+
+/* /////////////////////////footer/////////////////////*/
+
+footer {
+    height: 100px;
+    background-image: url(../img/madeira.jpg);
+}
+
+.final {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-shadow: -2px -2px 0 black,
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black;
+    padding-top: 30px;
+}
+
+@media (min-width: 769px) {
+
+    .logo {
+
+        font-size: 13px;
+
+    }
+
+    .menu-btn {
+        display: none;
+
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        position: static;
+        flex-direction: row;
+        gap: 1rem;
+        width: auto;
+        padding: 0;
+
+    }
+
+
+
+
+}
