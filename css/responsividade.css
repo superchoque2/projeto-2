@@ -1,0 +1,53 @@
+@media (min-width: 769px) {
+
+    header {
+        height: 100px;
+    }
+
+    .logo {
+
+        font-display: flex;
+        justify-content: center;
+        letter-spacing: 8px;
+        font-size: 14px;
+
+    }
+
+    .menu-btn {
+        display: none;
+
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        position: static;
+        flex-direction: row;
+        gap: 1rem;
+        width: auto;
+        padding: 0;
+
+    }
+
+    li {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    li a {
+        font-size: 1.6rem;
+        text-shadow: -2px -2px 0 black,
+            2px -2px 0 black,
+            -2px 2px 0 black,
+            2px 2px 0 black;
+
+    }
+
+
+    .produto-img {
+        display: flex;
+        justify-content: center;
+        margin-left: 20;
+    }
+
+}

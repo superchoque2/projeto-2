@@ -23,6 +23,9 @@ body {
 
 header {
     background-image: url(../img/madeira.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 80px;
     padding: 12px 4%;
     position: sticky;
@@ -206,6 +209,9 @@ a.pedido-btn {
 footer {
     height: 100px;
     background-image: url(../img/madeira.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .final {
@@ -217,33 +223,4 @@ footer {
         -2px 2px 0 black,
         2px 2px 0 black;
     padding-top: 30px;
-}
-
-@media (min-width: 769px) {
-
-    .logo {
-
-        font-size: 13px;
-
-    }
-
-    .menu-btn {
-        display: none;
-
-    }
-
-    ul {
-        list-style: none;
-        display: flex;
-        position: static;
-        flex-direction: row;
-        gap: 1rem;
-        width: auto;
-        padding: 0;
-
-    }
-
-
-
-
 }
