@@ -204,6 +204,14 @@ a.pedido-btn {
 
 }
 
+.descricao-midia {
+    display: none;
+}
+
+.pedido-btn-desk {
+    display: none;
+}
+
 /* /////////////////////////footer/////////////////////*/
 
 footer {
