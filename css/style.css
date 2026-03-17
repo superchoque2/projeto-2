@@ -140,6 +140,10 @@ a.pedido-btn {
     text-decoration: none;
 }
 
+.descricao-midia {
+    display: none;
+}
+
 .menu-btn {
     font-size: 2rem;
 
@@ -181,6 +185,10 @@ a.pedido-btn {
     display: block;
 }
 
+.pedido-btn-desk {
+    display: none;
+}
+
 .pedido-btn {
     display: flex;
     flex-direction: column;
@@ -202,14 +210,6 @@ a.pedido-btn {
     padding: 14px;
     font-size: 20px;
 
-}
-
-.descricao-midia {
-    display: none;
-}
-
-.pedido-btn-desk {
-    display: none;
 }
 
 /* /////////////////////////footer/////////////////////*/

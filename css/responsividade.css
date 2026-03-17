@@ -63,9 +63,7 @@
 
 
     .produto-img {
-
-        height: 400px;
-        width: 350px;
+        width: 300px;
         transform: scale(1.2);
         margin-left: 20px;
 
@@ -86,7 +84,7 @@
     .descricao-midia {
         display: block;
         max-width: 400px;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
 
     }
 
@@ -117,5 +115,93 @@
     .pedido-btn {
         display: none;
     }
+
+}
+
+@media (min-width: 1090px) {
+
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main {
+        flex: 1;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        position: static;
+        flex-direction: row;
+        gap: 2.5rem;
+        width: auto;
+        padding: 0;
+
+    }
+
+    li {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    li a {
+        font-size: 1.8rem;
+        text-shadow: -2px -2px 0 black,
+            2px -2px 0 black,
+            -2px 2px 0 black,
+            2px 2px 0 black;
+
+    }
+
+    .pedido-btn-desk {
+        display: inline-block;
+        background-image: url("../img/madeira.jpg");
+        padding: 20px 30px;
+        border-radius: 10px;
+        color: white;
+        text-decoration: none;
+
+        text-shadow: -2px -2px 0 black,
+            2px -2px 0 black,
+            -2px 2px 0 black,
+            2px 2px 0 black;
+        font-size: 1.4rem;
+    }
+
+
+    .descricao-midia {
+        display: block;
+        max-width: 400px;
+        font-size: 1.8rem;
+
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        text-shadow: -3px -3px 0 black,
+            3px -3px 0 black,
+            -3px 3px 0 black,
+            3px 3px 0 black;
+    }
+
+    .produto-img {
+        margin-right: 40px;
+        width: 40%;
+    }
+
+
+    footer {
+
+        background-image: url(../img/madeira.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+
+
 
 }
