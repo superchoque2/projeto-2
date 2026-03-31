@@ -116,7 +116,19 @@
         display: none;
     }
 
+    footer {
+        margin-top: 100px;
+        background-image: url(../img/madeira.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+
 }
+
+
 
 @media (min-width: 1090px) {
 
@@ -200,8 +212,5 @@
         background-position: center;
 
     }
-
-
-
 
 }
